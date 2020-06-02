@@ -1,0 +1,28 @@
+=	i10		C0
+=	i11		C0
+goto			16
+=	i11		C0
+<	i11	C10	T0
+gotoF	T0		15
+goto			9
+++			i11
+goto			4
++	i11	C0	T0
+>=	t0	i10	T1
+gotoF	T1		14
++	i11	C0	T1
+=	i10		t1
+goto			7
+return			
+=	i11		C0
+<	i11	C10	T2
+gotoF	T2		25
+goto			22
+++			i11
+goto			17
++	i11	C0	T2
+in			t2
+goto			20
+gotoP	3		
+out			i10
+end			

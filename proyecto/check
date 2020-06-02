@@ -1,0 +1,10 @@
+#!/bin/bash
+
+yacc -d proyecto.y --verbose --debug
+lex proyecto.l
+yacc proyecto.y
+gcc -o proyecto y.tab.c
+./proyecto
+cat output.txt
+gcc -o ejecutor ejecutor.c
+./ejecutor
